@@ -1,0 +1,113 @@
+/* Basic Reset */
+body, h1, nav, form, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6em;
+    background-color: #f4f4f4;
+    
+}
+
+
+#navbar {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+#main-content {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+#main-content h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#main-content .form-row {
+    margin-bottom: 20px;
+}
+
+#main-content .form-row label {
+    display: block;
+}
+
+#main-content .form-row input,
+#main-content .form-row textarea,
+#main-content .form-row select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#main-content .form-row button {
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+/* Footer Styles */
+#footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Media Queries */
+@media(max-width: 768px) {
+    #main-content {
+        width: 98%;
+    }
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container img {
+    width: 500px;
+    height: 500px;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6em;
+    background-color: #f4f4f4;
+    border-left: 10px solid #35424a; /* Add left border */
+    border-right: 10px solid #35424a; /* Add right border */
+    box-sizing: border-box;
+}
+
+#main-content {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    text-align: justify; /* Align the text within the borders */
+}
